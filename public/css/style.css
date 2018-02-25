@@ -1,8 +1,80 @@
-footer {
-   position:fixed;
+#navhistory {
+	color:white;
+}
+
+#navcoaches {
+	color:white;
+}
+
+#navhof {
+	color:white;
+}
+
+#navrules {
+	color:white;
+}
+
+.navbar-brand {
+	max-width: 15%;
+	max-height: 100%;
+	padding: 0;
+	margin-right: 10pt;
+}
+
+#navpic {
+	max-width: 90px;
+
+}
+
+#navpills {
+	float: right;
+}
+
+#intro-row{
+	padding-bottom: 36pt;
+	font-size: 12pt;
+}
+
+hr {
+	border: none;
+	color: #00ffff;
+	background-color: #00ffff;
+	height: 2px;
+}
+
+#twitter-icon{
+	max-width: 100px;
+}
+
+#google-sheets-icon{
+	max-width: 100px;
+}
+#twitter-link-box{
+	text-align: center;
+	background-color: transparent;
+	font-family: 'Questrial', sans-serif; 
+	color: white;
+	font-size: 20pt;
+	padding-top: 64pt;
+}
+#google-sheets-box{
+	text-align: center;
+	font-family: 'Questrial', sans-serif; 
+	color: white;
+	font-size: 20pt;
+	padding-top: 64pt;
+}
+
+footer {  
    left:0px;
    bottom:0px;
    width:100%;
    text-align: center;
-   font-family: 'Khula', sans-serif;
+   font-family: 'Questrial', sans-serif;
+}
+
+@media (min-width: @screen-sm-min) {
+	h1 {
+		font-size: 28pt;
+	}
 }
