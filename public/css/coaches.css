@@ -29,3 +29,33 @@
 #navpills {
 	float: right;
 }
+
+table, th, td {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    min-width: 100%;
+    font-family: "Questrial", sans-serif;
+    font-size: 14pt;
+}
+h1 {
+	font-size: 28pt;
+	color: #2de2f3;
+	text-align: center;
+}
+
+h2 {
+	padding-top: 32px;
+	font-size: 18pt;
+	color: #2de2f3;
+	text-align: center;
+}
+
+p {
+	color: white;
+    min-width: 100%;
+    font-family: "Questrial", sans-serif;
+    font-size: 14pt;
+}
