@@ -52,6 +52,34 @@ p {
 
 }
 
+img:hover {
+    outline: none;
+    border-color: #2de2f3;
+    box-shadow: 0 0 100px #2de2f3;
+}
+
+#bloggerpic{
+	margin-top: 100px;
+	max-width: 100%;
+/*	background: none;
+	outline: none;
+    border-color: #2de2f3;
+    box-shadow: 0 0 100px #2de2f3;
+    border-radius: 15px;*/
+
+/*    animation: pulse 2s infinite;
+    animation-direction: alternate;*/
+
+}
+/*@keyframes pulse {
+  0% {
+    background-color: black;
+  }
+  100% {
+    background-color: #2de2f3;
+  }
+}*/
+
 
 footer {  
    left:0px;

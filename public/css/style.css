@@ -65,6 +65,13 @@ hr {
 	padding-top: 64pt;
 }
 
+img:hover{
+		outline: none;
+    border-color: #2de2f3;
+    border: 0 0 0 0;
+    box-shadow: 0 0 100px #2de2f3;
+}
+
 footer {  
    left:0px;
    bottom:0px;
