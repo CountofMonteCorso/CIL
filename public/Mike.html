@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Bootstrap Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Bootstrap Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Remember to include jQuery :) -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+	<!--jquery cdn -->
+	<script
+  		src="https://code.jquery.com/jquery-3.2.1.js"
+  		integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  		crossorigin="anonymous">	
+  	</script>
+
+	<!--fontawesome cdn -->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!--Russo One font -->
+	<link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+	<!--Questrial font -->
+	<link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+	<!--css -->
+	<link href="css/coaches.css" type="text/css" rel="stylesheet">
+
+	<title>Mad Mike Nebbia</title>
+</head>
+<body style="background-color: black;">
+	<nav class="navbar navbar-inverse">
+ 		<div class="container" id="navbar-container">
+    		<div class="container-fluid">
+   				<div class="navbar-header">
+      				<a class="navbar-brand" href="#">
+        				<img alt="The CIL" src="images/bannerpng.png" id="navpic">
+      				</a>
+      				<ul class="nav nav-pills" id="navpills">
+      					<li><a href="#" id="navhistory">History</a></li>
+      					<li><a href="#" id="navcoaches">Coaches</a></li>
+      					<li><a href="#" id="navhof">Hall-of-Fame</a></li>
+      					<li><a href="#" id="navrules">Rules</a></li>
+      				</ul>
+    		</div>
+  		</div>
+	</nav>
+
+	<div class="container">
+		<div class="row">
+			<h1> Meet the Real Mike Madness</h1>
+			<h5> Brooklyn Net Balls, Hartford Wailord, Oklahoma City Thundurus </h5>
+		</div>
+		<div class="row" style="margin-bottom: 24pt;">
+			<h2> Seasons </h2>
+			<table id="seasons-table">
+				<th> 1 </th>
+				<th style="color: black; background-color:#2de2f3;"> 2 </th>
+				<th style="color: black; background-color:#2de2f3;"> 3 </th>
+				<th style="color: black; background-color:#2de2f3;"> 4 </th>
+				<th style="color: black; background-color:#2de2f3;"> 5 </th>
+			</table>
+		<div class="row" style="text-align: center;">
+			<a href="https://twitter.com/MadMikeNebbia">
+				<img src="images/mikepic.jpg" id="coachpic">
+			</a>
+		</div>
+		<h2> From the Coach's Desk </h2>
+		<p>I got into competitive Pokemon by watching videos of guys like aDrive and MegaMogwai. I thought to myself 'this might be fun', so I stumbled upon the CIL and I've loved every minute of it! 
+		</br>
+		</br>
+		My play style...I guess it's mainly hyper offense with weather playing a role this season.
+		</br>
+		</br>
+		After each game, I like to look at the replays, see what went wrong and what I can improve on for the next battle.
+		</p>
+	</div>
+
+	<!-- Button triggering coach interview modal -->
+<button type="button" data-toggle="modal" data-target="#myModal">Coach's Interview!</button>
+
+<div class="modal fade" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">Interview with the coach!</h4>
+      </div>
+      <div class="modal-body">
+        
+		<h4>How long have you been playing Pokemon?</h4>
+		<p class="coach-responses">  </p>
+
+		<h4>How would you describe your playstyle?</h4>
+		<p class="coach-responses"> </p>
+
+		<h4>What's your favorite Pokemon to draft?</h4>
+		<p class="coach-responses"> </p>
+
+		<h4>If you could make a new Alolan-form for a Pokemon without one, what would you make and what would it be like? </h4>
+		<p class="coach-responses"> </p>
+
+		<h4>If you could make a new Mega Pokemon for a Pokemon without one, what would you make and what would it be like?</h4>
+		<p class="coach-responses">  </p>
+
+		<h4>What new Pokemon would you most like to see in the next generation? As many details as you'd like (typing, ability, stats, etc).  </h4>
+		<p class="coach-responses"> </p>
+
+		<h4>Aside from trainer, what job would you have in the Pokemon universe? </h4>
+		<p class="coach-responses"> </p>
+
+		<h4>Where would you live in the Pokemon universe? </h4>
+		<p class="coach-responses"> </p>
+
+		<h4>Do you follow any well-known Pokemon players? </h4>
+		<p class="coach-responses">  </p>
+
+		<h4>Who is your favorite character in the entire Pokemon universe? </h4>
+		<p class="coach-responses"> </p>
+
+		<h4>If you were getting "shipped" with one character from the Pokemon universe, who would you choose and why? </h4>
+		<p class="coach-responses"> </p>
+
+		<h4>Favorite Pokemon? </h4>
+		<p class="coach-responses">  </p>
+
+		<h4>Least favorite Pokemon?</h4>
+		<p class="coach-responses"> </p>
+
+		<h4>Favorite starter Pokemon? </h4>
+		<p class="coach-responses">  </p>
+
+		<h4>Favorite Eeveelution? </h4>
+		<p class="coach-responses">  </p>
+
+		<h4>Favorite legendary Pokemon? </h4>
+		<p class="coach-responses">  </p>
+
+		<h4>Cutest Pokemon? </h4>
+		<p class="coach-responses"> </p>
+
+		<h4>Favorite Pokemon type? </h4>
+		<p class="coach-responses"> </p>
+
+		<h4>Favorite Z-Move? </h4>
+		<p class="coach-responses"> </p>
+
+		<h4>Favorite villain team? </h4>
+		<p class="coach-responses"> </p>
+
+		<h4>Favorite Pokemon Professor? </h4>
+		<p class="coach-responses"> </p>
+
+		<h4>Favorite gym leader? </h4>
+		<p class="coach-responses"> </p>
+
+		<h4>Favorite Elite Four member?</h4>
+		<p class="coach-responses">  </p>
+
+		<h4>Favorite generation of Pokemon?</h4>
+		<p class="coach-responses">  </p>
+
+		<h4>Most frustrating character in Pokemon?</h4>
+		<p class="coach-responses"> </p>
+
+		<h4>If you had to eat a Pokemon, which one would you eat and why?</h4>
+		<p class="coach-responses">  </p>
+
+		<h4> What Pokemon is your spirit Pokemon/ which are you most like? </h4>
+		<p class="coach-responses">  </p>
+
+		<h4>What's the best thing about Pokemon? </h4>
+		<p class="coach-responses"> </p>
+
+		<h4> What other games do you like to play? </h4>
+		<p class="coach-responses"> </p>
+
+		<h4>When you're not gaming, what are we likely to find you doing?</h4>	
+		<p class="coach-responses"> </p>	
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+		
+
+	<script type="text/javascript"> 
+		$('#myModal').modal()
+	</script>
+
+	<!-- Bootstrap Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+<footer>
+	© Kevin Corso, Chase Branham, and The CIL 2015 - 2018
+</footer>
+</html>
