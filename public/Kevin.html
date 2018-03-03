@@ -63,7 +63,7 @@
 		</div>
 		<div class="row" style="text-align: center;">
 			<a href="http://twitter.com/KevinVGC">
-				<img src="images/kevpic.jpg" id="coachpic">
+				<img src="images/coachpics/kevpic.jpg" id="coachpic">
 			</a>
 		</div>
 		<h2> From the Coach's Desk </h2>
@@ -75,11 +75,12 @@
 		</br>
 		So thanks for stopping by to check us out and if you're interested in being a part of our fun community, let me know on Twitter. Just click my picture :]
 		</p>
+
+		<div class="row" id="btn-row>">
+			<!-- Button triggering coach interview modal -->
+			<button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal" id="coach-interview-btn">Coach's Interview!</button>
+		</div>
 	</div>
-
-
-<!-- Button triggering coach interview modal -->
-<button type="button" data-toggle="modal" data-target="#myModal">Coach's Interview!</button>
 
 <div class="modal fade" id="myModal">
   <div class="modal-dialog">
@@ -178,12 +179,12 @@
 		<p class="coach-responses"> I rarely have time to game, unfort, so it's usually just this. Past faves are: Smash Bros (all but Melee), Tales of Symphonia 1 and 2 (maybe my second favorite franchise of all time), Tetris Attack (SNES),  Madden, Warriors games, Mario games, Zelda games, Sonic games, the God of War series, Conker's Bad Fur Day (N64), Diabolo III, LOTR games... basically any sufficiently interesting action game, ideally with a good story driving it. </p>
 
 		<h4>When you're not gaming, what are we likely to find you doing?</h4>	
-		<p class="coach-responses"> Oh man...a lot of things. I like to do stuff like this (coding, making the website), and I'm really into sports, especially MMA. I don't actively train with many others since I haven't had health insurance for a few years, but I do still train and I follow the UFC pretty closely.  I also love movies, music, reading, learning, travelling, and hanging out with family and friends :] </p>	
+		<p class="coach-responses"> Oh man...a lot of things. I like to do stuff like this (coding, making the website), and I'm really into sports, especially MMA. I also love movies, music, reading, learning, travelling, and hanging out with family and friends :] </p>	
 
 
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-info" data-dismiss="modal" id="modal-close-btn">Close</button>
       </div>
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->

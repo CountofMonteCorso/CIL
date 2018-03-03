@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Bootstrap Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Bootstrap Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Remember to include jQuery :) -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+	<!--jquery cdn -->
+	<script
+  		src="https://code.jquery.com/jquery-3.2.1.js"
+  		integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  		crossorigin="anonymous">	
+  	</script>
+
+	<!--fontawesome cdn -->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!--Russo One font -->
+	<link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+	<!--Questrial font -->
+	<link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+	<!--css -->
+	<link href="css/coaches.css" type="text/css" rel="stylesheet">
+
+	<title>Mavro Foveros</title>
+</head>
+<body style="background-color: black;">
+	<nav class="navbar navbar-inverse">
+ 		<div class="container" id="navbar-container">
+    		<div class="container-fluid">
+   				<div class="navbar-header">
+      				<a class="navbar-brand" href="#">
+        				<img alt="The CIL" src="images/bannerpng.png" id="navpic">
+      				</a>
+      				<ul class="nav nav-pills" id="navpills">
+      					<li><a href="#" id="navhistory">History</a></li>
+      					<li><a href="#" id="navcoaches">Coaches</a></li>
+      					<li><a href="#" id="navhof">Hall-of-Fame</a></li>
+      					<li><a href="#" id="navrules">Rules</a></li>
+      				</ul>
+    		</div>
+  		</div>
+	</nav>
+
+	<div class="container">
+		<div class="row">
+			<h1> Meet the Mavmissioner</h1>
+			<h5> Sarnia Poison Sting </h5>
+		</div>
+		<div class="row" style="margin-bottom: 24pt;">
+			<h2> Seasons </h2>
+			<table id="seasons-table">
+				<th style="color: black; background-color:#2de2f3;"> 1 </th>
+				<th style="color: black; background-color:#2de2f3;"> 2 </th>
+				<th style="color: black; background-color:#2de2f3;"> 3 </th>
+				<th style="color: black; background-color:#2de2f3;"> 4 </th>
+				<th style="color: black; background-color:#2de2f3;"> 5 </th>
+			</table>
+		<div class="row" style="text-align: center;">
+			<a href="https://twitter.com/Mav_Intensifies">
+				<img src="images/coachpics/mavpic.jpg" id="coachpic">
+			</a>
+		</div>
+		<h2> From the Coach's Desk </h2>
+		<p>	*dorito emote* You may know me as MavroTrainer, Mavro Foveros, Mav, Mavmissioner, Mav_Intensifies, or that one guy who makes too many free agency picks when he doesn't need to (I'm looking at Season 2 lol). 
+		</p>
+	</div>
+
+	<!-- Button triggering coach interview modal -->
+<button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal" id="coach-interview-btn">Coach's Interview!</button>
+
+<div class="modal fade" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">Interview with the coach!</h4>
+      </div>
+      <div class="modal-body">
+        
+		<h4>How long have you been playing Pokemon?</h4>
+		<p class="coach-responses"> I've been playing Pokemon ever since I first tried out Platinum version on my good ol' DS Lite (probably 2009). I still remember that holiday season feeling really special, it was the first time I used money that I had saved up to buy my own console. I remember tearing open the box, inserting the game and playing until the battery ran out even though the manual recommended charging it first. That's when I learned I had to save the game in order to pick up where I had left off (rip the Chimchar that I technically chose first). 
+
+		The first starter that I chose (that wasn't reset over) was Turtwig which (with the help of a trusty Rotom that I caught in the Old Chateau) cleared most of the game for me. There was a ton of memorable moments like the time I got frustrated when I couldn't beat the two trainers before you can enter Veilstone City and overleveling Rotom as a result, not noticing the exit to the Grand Lake Hotel area, and somehow beating Candice with Torterra despite being baffled by why her moves were doing so much damage (didn't know the type chart very well back then). There was a time with what to do after that since I didn't pay attention to what the NPCs at the Team Galactic Hideout were saying (I would've learned they were infiltrating Mt.Coronet). When I finally did discover it and found the Spear Pillar cutscene that ended with exploring the Distortion World, I was blown back by how much awesomeness I had missed before. 
+
+		Since then I played Soul Silver (which I had a similar experience with), Black, Black 2, went back to play Leaf Green was I was able to find a copy at a flea market, Y, Omega Ruby, Sun, also found and played a copy of Emerald which I also found a couple years later at that same flea market, and most recently Ultra Sun. Haven't taken any breaks from the series as of yet and am still fully invested haha.  </p>
+
+		<h4>How would you describe your playstyle?</h4>
+		<p class="coach-responses"> I think I play a bit chaotically sometimes. haha Like trying to not make obvious plays, make bold predictions, have lots of bulky spreads, exploiting a Pokemon's ability to fill a certain role really well, and sometimes letting music affect my mood and in turn how I make my decisions. Lately I feel like I've grown out of that a bit more and go for a more calm and calculated style.  </p>
+
+		<h4>What's your favorite Pokemon to draft?</h4>
+		<p class="coach-responses"> Probably Hippowdon. I've never used it to build a full blown sand team but I really like it for its pure Ground typing, great defenses, reliable recovery, Stealth Rock, and relatively strong uninvested EQ.  </p>
+
+		<h4>If you could make a new Alolan-form for a Pokemon without one, what would you make and what would it be like? </h4>
+		<p class="coach-responses"> Alolan Snorlax. It'd look like a body builder and it'd never stop jogging (whether it has to jog in place or travel). It would have to wear sunglasses to prevent its eyes from incinerating everything with its eye beams (kinda like Cyclops from X-Men). It'd wear a flower crown and be all red from sun burn to fit in with the Hawaiian theme.  </p>
+
+		<h4>If you could make a new Mega Pokemon for a Pokemon without one, what would you make and what would it be like?</h4>
+		<p class="coach-responses"> Mega Magcargo. You'd just see its eye peeking out of a huge burning ball of molten lava and you'd have to look away from its brilliance or it'd blind you. Pretty much a second sun but the one true sun.  </p>
+
+		<h4>What new Pokemon would you most like to see in the next generation? As many details as you'd like (typing, ability, stats, etc).  </h4>
+		<p class="coach-responses"> I think an Electric/Ice type could be cool (wink). It'd be really spark-ly (wink). A silver saber tooth tiger with gold specks all over it. I'd give it base stats of 80 HP, 60 Atk, 70 Def, 100 Sp. Atk, 70 Sp. Def, and 110 Spe. It would also have the Dazzling ability (Bruxish has it, prevents opponent from making priority attacks). </p>
+
+		<h4>Aside from trainer, what job would you have in the Pokemon universe? </h4>
+		<p class="coach-responses"> I'd probably be a Pokemon breeder since that's what I've been doing a lot of in Ultra Sun recently. I've been making progress on breeding each Pokemon in Pokedex order to have natures, egg moves, and abilities that I think work the best for them so I'd be pretty helpful to trainers who want some Pokemon bred for them.  </p>
+
+		<h4>Where would you live in the Pokemon universe? </h4>
+		<p class="coach-responses"> I think I'd want to live in Shunyshore City. I like the beach atmosphere and Sinnoh is the region I feel the most home at. If I wanted to I could take a ship to the other regions from the port there or meet people from other regions that are visiting so it's kind of a strategic spot too.  </p>
+
+		<h4>Do you follow any well-known Pokemon players? </h4>
+		<p class="coach-responses"> I watch Pokeaim, Cybertron, Wolfey, and various other well-known players from time to time.  </p>
+
+		<h4>Who is your favorite character in the entire Pokemon universe? </h4>
+		<p class="coach-responses">  That's a tough one since I like a lot of them but if I had to pick one, it'd be Cynthia. She likes to read myths (just like me), she's a strong trainer, and she's just cool in general. </p>
+
+		<h4>If you were getting "shipped" with one character from the Pokemon universe, who would you choose and why? </h4>
+		<p class="coach-responses"> Cynthia for all the reasons I mentioned for why she's my favorite character and since (not going to lie) she's not bad looking. lol </p>
+
+		<h4>Favorite Pokemon? </h4>
+		<p class="coach-responses"> Depends. Currently Milotic but I rotate between Venusaur, Gyarados, Garchomp, Weavile, Infernape, Greninja, Arceus, Necrozma, etc. </p>
+
+		<h4>Least favorite Pokemon?</h4>
+		<p class="coach-responses"> I generally like every Pokemon to some extent but if I had to choose one I'd say Hypno. I think its design is kinda creepy and I find it annoying how it uses Hypnosis as its gimmick or tries to act like a Poison type Pokemon in the Fuschia City Gym. I like how it's a reference to the Greek god Hypnos though.  </p>
+
+		<h4>Favorite starter Pokemon? </h4>
+		<p class="coach-responses"> I'd say the Cyndaquil line is the most consistently liked by me for the memories of playing through Soul Silver with it and because I like each evolutions' design (even the middle stage which I normally think looks odd for most other starters) but there's a lot of starters I really like and I don't think I could properly choose between them all.   </p>
+
+		<h4>Favorite Eeveelution? </h4>
+		<p class="coach-responses"> Vaporeon. I like its concept. I've had this idea before of how I could make different characters and creatures for a story and one of them was a water dragon that could breath high pressure water instead of fire and can swim really well (like how a traditional dragon would fly really well). Vaporeon kind of embodies how the regular form of something would change to look aquatic by how it turns blue (to look like the color water is normally represented by in fantasy) and grows fins. </p>
+
+		<h4>Favorite legendary Pokemon? </h4>
+		<p class="coach-responses"> Arceus. Reminds me of Eru Iluvatar from The Silmarillion. It's the freaking creator of the universe (according to legend) and it can become any type if it holds the right plate. It doesn't get much cooler than that.  </p>
+
+		<h4>Cutest Pokemon? </h4>
+		<p class="coach-responses"> Alolan Vulpix </p>
+
+		<h4>Favorite Pokemon type? </h4>
+		<p class="coach-responses"> Dragon </p>
+
+		<h4>Favorite Z-Move? </h4>
+		<p class="coach-responses"> Light that Burns the Sky (Ultra Necrozma's Z move) Pulverizing Pancake comes close though.</p>
+
+		<h4>Favorite villain team? </h4>
+		<p class="coach-responses"> Team Rainbow Rocket ;) Team Plasma if you think that's cheating.  </p>
+
+		<h4>Favorite Pokemon Professor? </h4>
+		<p class="coach-responses"> Professor Oak (the OG) </p>
+
+		<h4>Favorite gym leader? </h4>
+		<p class="coach-responses"> Drayden (muscular old guy with an dragon beard) </p>
+
+		<h4>Favorite Elite Four member?</h4>
+		<p class="coach-responses"> Flint (groovy afro, like his upbeat personality and how he wants to cheer up Volkner in the anime). </p>
+
+		<h4>Favorite generation of Pokemon?</h4>
+		<p class="coach-responses"> Gen 4 (for obvious reasons). </p>
+
+		<h4>Most frustrating character in Pokemon?</h4>
+		<p class="coach-responses"> Blue (what a jerk). </p>
+
+		<h4>If you had to eat a Pokemon, which one would you eat and why?</h4>
+		<p class="coach-responses"> Kentucky Fried Blaziken. </p>
+
+		<h4> What Pokemon is your spirit Pokemon/ which are you most like? </h4>
+		<p class="coach-responses"> I'm honestly not sure. (Kevmissioner suggests Mew)  think that'd work. I'm pretty laid back. try not to get too upset over small things. I wouldn't say I'm quite as playful all the time but I do like to goof off in video games so maybe it'd fit that way? </p>
+
+		<h4>What's the best thing about Pokemon? </h4>
+		<p class="coach-responses"> The characters. So many Pokemon and NPCs that I remember fondly. </p>
+
+		<h4> What other games do you like to play? </h4>
+		<p class="coach-responses"> I like a lot of Nintendo games. Fire Emblem (probably the series I play the most besides Pokemon, appeals to the part of me that likes history and mythology), Mario, Sonic, Zelda, Metroid, Mario Kart, Smash Bros. </p>
+
+		<h4>When you're not gaming, what are we likely to find you doing?</h4>	
+		<p class="coach-responses"> Reading. I enjoy The Lord of the Rings, Percy Jackson and the Olympians, Artemis Fowl, etc. Fantasy, mythology, history like I've already mentioned. </p>	
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-info" data-dismiss="modal" id="modal-close-btn">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+		
+
+	<script type="text/javascript"> 
+		$('#myModal').modal()
+	</script>
+
+	<!-- Bootstrap Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+<footer>
+	© Kevin Corso, Chase Branham, and The CIL 2015 - 2018
+</footer>
+</html>

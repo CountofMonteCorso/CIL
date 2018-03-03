@@ -29,3 +29,35 @@
 #navpills {
 	float: right;
 }
+
+h1 {
+	font-family: "Questrial", sans-serif;
+	font-size: 28pt;
+	color: #2de2f3;
+	text-align: center;
+	padding-top: 28px;
+
+}
+
+p {
+	color: white;
+    min-width: 100%;
+    font-family: "Questrial", sans-serif;
+    font-size: 14pt;
+}
+
+#blogger-row {
+	text-align: center;
+ 	min-width: 100%;
+
+}
+
+
+footer {  
+   left:0px;
+   bottom:0px;
+   width:100%;
+   text-align: center;
+   font-family: 'Questrial', sans-serif;
+   padding-top: 64px;
+}
