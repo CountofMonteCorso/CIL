@@ -30,6 +30,15 @@
 	float: right;
 }
 
+li:hover{
+	background-color: transparent;
+	outline: none;
+    border-color: #2de2f3;
+    border: 0 0 0 0;
+    box-shadow: 0 0 100px #2de2f3;
+}
+
+
 h1 {
 	font-family: "Questrial", sans-serif;
 	font-size: 28pt;

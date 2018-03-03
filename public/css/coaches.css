@@ -25,10 +25,27 @@
 	max-width: 90px;
 
 }
+#navpic:hover{
+	background-color: transparent;
+	outline: none;
+    border-color: #2de2f3;
+    border: 0 0 0 0;
+    box-shadow: 0 0 100px #2de2f3;
+}
+
 
 #navpills {
 	float: right;
 }
+
+li:hover{
+	background-color: transparent;
+	outline: none;
+    border-color: #2de2f3;
+    border: 0 0 0 0;
+    box-shadow: 0 0 100px #2de2f3;
+}
+
 
 table, th, td {
     border: 1px solid gray;
@@ -135,3 +152,4 @@ footer {
    font-family: 'Questrial', sans-serif;
    padding-top: 64px;
 }
+

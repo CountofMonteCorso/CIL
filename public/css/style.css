@@ -23,12 +23,27 @@
 
 #navpic {
 	max-width: 90px;
-
+}
+#navpic:hover{
+	background-color: transparent;
+	outline: none;
+    border-color: #2de2f3;
+    border: 0 0 0 0;
+    box-shadow: 0 0 100px #2de2f3;
 }
 
 #navpills {
 	float: right;
 }
+
+li:hover{
+	background-color: transparent;
+	outline: none;
+    border-color: #2de2f3;
+    border: 0 0 0 0;
+    box-shadow: 0 0 100px #2de2f3;
+}
+
 
 #intro-row{
 	padding-bottom: 36pt;
@@ -45,9 +60,21 @@ hr {
 #twitter-icon{
 	max-width: 100px;
 }
+#twitter-icon:hover{
+	outline: none;
+    border-color: #2de2f3;
+    border: 0 0 0 0;
+    box-shadow: 0 0 100px #2de2f3;
+}
 
 #google-sheets-icon{
 	max-width: 100px;
+}
+#google-sheets-icon:hover{
+	outline: none;
+    border-color: #2de2f3;
+    border: 0 0 0 0;
+    box-shadow: 0 0 100px #2de2f3;
 }
 #twitter-link-box{
 	text-align: center;
@@ -65,12 +92,7 @@ hr {
 	padding-top: 64pt;
 }
 
-img:hover{
-		outline: none;
-    border-color: #2de2f3;
-    border: 0 0 0 0;
-    box-shadow: 0 0 100px #2de2f3;
-}
+
 
 footer {  
    left:0px;
