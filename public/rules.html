@@ -26,15 +26,15 @@
  		<div class="container" id="navbar-container">
     		<div class="container-fluid">
    				<div class="navbar-header">
-      				<a class="navbar-brand" href="#">
+      				<a class="navbar-brand" href="index.html">
         				<img alt="The CIL" src="images/bannerpng.png" id="navpic">
       				</a>
-      				<ul class="nav nav-pills" id="navpills">
-      					<li><a href="#" id="navhistory">History</a></li>
-      					<li><a href="#" id="navcoaches">Coaches</a></li>
-      					<li><a href="#" id="navhof">Hall-of-Fame</a></li>
-      					<li><a href="#" id="navrules">Rules</a></li>
-      				</ul>
+              <ul class="nav nav-pills" id="navpills">
+                <li><a href="history.html" id="navhistory">History</a></li>
+                <li><a href="coaches.html" id="navcoaches">Coaches</a></li>
+                <li><a href="hall-of-fame.html" id="navhof">Hall-of-Fame</a></li>
+                <li><a href="rules.html" id="navrules">Rules</a></li>
+              </ul>
     		</div>
   		</div>
 	</nav>
@@ -53,6 +53,29 @@
     </a>
   </div>
 </div>
+
+<!--SCRIPTS -->
+<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+      $("body").css("display", "none");
+   
+      $("body").fadeIn(1500);
+   
+      $("a.transition").click(function(event){
+          event.preventDefault();
+          linkLocation = this.href;
+          $("body").fadeOut(1000, redirectPage);      
+      });
+           
+      function redirectPage() {
+          window.location = linkLocation;
+      }
+  });
+</script>
 
 </body>
 <footer>

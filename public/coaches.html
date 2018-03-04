@@ -26,14 +26,14 @@
  		<div class="container" id="navbar-container">
     		<div class="container-fluid">
    				<div class="navbar-header">
-      				<a class="navbar-brand" href="#">
+      				<a class="navbar-brand" href="index.html">
         				<img alt="The CIL" src="images/bannerpng.png" id="navpic">
       				</a>
       				<ul class="nav nav-pills" id="navpills">
-      					<li><a href="#" id="navhistory">History</a></li>
-      					<li><a href="#" id="navcoaches">Coaches</a></li>
-      					<li><a href="#" id="navhof">Hall-of-Fame</a></li>
-      					<li><a href="#" id="navrules">Rules</a></li>
+      					<li><a href="history.html" id="navhistory">History</a></li>
+      					<li><a href="coaches.html" id="navcoaches">Coaches</a></li>
+      					<li><a href="hall-of-fame.html" id="navhof">Hall-of-Fame</a></li>
+      					<li><a href="rules.html" id="navrules">Rules</a></li>
       				</ul>
     		</div>
   		</div>
@@ -42,7 +42,7 @@
 	<div class="container">
 		<div class="row">
 			<h1> Coaches</h1>
-			<p> Meet the competitors of the CIL!  Click on the coach's name to visit their Twitter page, or click on their team name for their bio and team information!
+			<p style="text-align: center;"> Meet the competitors of the CIL!  Click on the coach's name for their bio and team information!
 		</div>
 		<div class="row" id="current-coaches">
 			<h2>Current Coaches</h2>
@@ -52,7 +52,7 @@
 					<th> Team </th>
 				</tr>
 				<tr>
-					<td> <a href="https://twitter.com/KevinVGC"> KevinVGC </a></td>
+					<td> <a href="Kevin.html"> KevinVGC </a></td>
 					<td> Los Angeles Kinglers </td>
 				</tr>
 				<tr>
@@ -60,35 +60,35 @@
 					<td> Bentonville Blastoise </td>
 				</tr>
 				<tr>
-					<td> <a href="https://twitter.com/Mav_Intensifies"> Mav Intensifies </a></td>
+					<td> <a href="Mav.html"> Mav Intensifies </a></td>
 					<td> Sarnia Poison Sting </td>
 				</tr>
 				<tr>
-					<td> <a href="https://twitter.com/theflyingfiona"> Fiona </a></td>
+					<td> Fiona </td>
 					<td> Kansas City Whirlwinds </td>
 				</tr>
 				<tr>
-					<td> <a href="https://twitter.com/Sanyer1124"> Dakota </a></td>
+					<td> Dakota </td>
 					<td> Portland Pinsirs </td>
 				</tr>
 				<tr>
-					<td> <a href="https://twitter.com/mattyb410"> MysticMatt </a></td>
+					<td> MysticMatt</td>
 					<td> Manchester Mattmonlees </td>
 				</tr>
 				<tr>
-					<td> <a href="https://twitter.com/MadMikeNebbia"> Michael Nebbia</a></td>
+					<td> Michael Nebbia</td>
 					<td> Hartford Wailord </td>
 				</tr>
 				<tr>
-					<td> <a href="https://twitter.com/Samakonda"> Sam </a></td>
+					<td> Sam</td>
 					<td> Los Angeles Sand Veil Dodgers</td>
 				</tr>
 				<tr>
-					<td> <a href="https://twitter.com/Kiev697"> Black117 </a></td>
+					<td> Black117</td>
 					<td> Los Angeles Nidokings</td>
 				</tr>
 				<tr>
-					<td> <a href="https://twitter.com/ItalianG062"> Kyle </a></td>
+					<td> Kyle </td>
 					<td> Cobbleskill Charizards</td>
 				</tr>
 			</table>
@@ -153,22 +153,31 @@
 		</div>
 	</div>
 
+<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+<script type="text/javascript">
+
+$(document).ready(function() {
+    $("body").css("display", "none");
+ 
+    $("body").fadeIn(1500);
+ 
+    $("a.transition").click(function(event){
+        event.preventDefault();
+        linkLocation = this.href;
+        $("body").fadeOut(1000, redirectPage);      
+    });
+         
+    function redirectPage() {
+        window.location = linkLocation;
+    }
+});
+</script>
+
 </body>
 <footer style="text-align: center; font-family: 'Khula', sans-serif;">
-	© Kevin Corso and The CIL 2015 - 2018
+	© Kevin Corso, Chase Branham, and The CIL 2015 - 2018
 </footer>
 </html>
-
-<!--coach question ideas & submissions:
-
-	1- How would you describe your playstyle?	
-	2- What's your favorite Pokemon to draft?
-	3- If you chould change one Pokemon to improve its utility, what would you change and how?
-	4- Who is your favorite starter Pokemon?
-	5- Aside from trainer, what job would you have in the Pokemon universe?
-	6- Where would you live in the Pokemon universe?
-	7- Do you follow any well-known Pokemon players?
-	8- When you're not playing Pokemon, what are we likely to find you doing?
-	9-
-	10- 
-	-->

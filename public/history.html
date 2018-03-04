@@ -12,12 +12,12 @@
 
 	<!--fontawesome cdn -->
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<!--Russo One font -->
-	<link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
 	<!--Questrial font -->
 	<link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
 	<!--css -->
 	<link href="css/history.css" type="text/css" rel="stylesheet">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 	<title>CIL History</title>
 </head>
@@ -26,18 +26,131 @@
  		<div class="container" id="navbar-container">
     		<div class="container-fluid">
    				<div class="navbar-header">
-      				<a class="navbar-brand" href="#">
+      				<a class="navbar-brand" href="index.html">
         				<img alt="The CIL" src="images/bannerpng.png" id="navpic">
       				</a>
       				<ul class="nav nav-pills" id="navpills">
-      					<li><a href="#" id="navhistory">History</a></li>
-      					<li><a href="#" id="navcoaches">Coaches</a></li>
-      					<li><a href="#" id="navhof">Hall-of-Fame</a></li>
-      					<li><a href="#" id="navrules">Rules</a></li>
+      					<li><a href="history.html" id="navhistory">History</a></li>
+      					<li><a href="coaches.html" id="navcoaches">Coaches</a></li>
+      					<li><a href="hall-of-fame.html" id="navhof">Hall-of-Fame</a></li>
+      					<li><a href="rules.html" id="navrules">Rules</a></li>
       				</ul>
     		</div>
   		</div>
 	</nav>
 
+<div class="container">
+	<div class="row">
+		<h1> CIL Archives</h1>
+	</div>
+	<div class="row">
+		<h3> If you're looking for the Google Docs for all past seasons, look no further.  This is the complete history of the CIL.</h3>
+	</div>
+	<div class="row">
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		  <!-- Indicators -->
+		  <ol class="carousel-indicators">
+		    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		    <li data-target="#myCarousel" data-slide-to="1"></li>
+		    <li data-target="#myCarousel" data-slide-to="2"></li>
+		    <li data-target="#myCarousel" data-slide-to="3"></li>
+		    <li data-target="#myCarousel" data-slide-to="4"></li>
+		  </ol>
+
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner" role="listbox">
+		    <div class="item active">
+		      <img src="images/logo2018.jpg" alt="Season 5">
+		      <div class="carousel-caption">
+		        <h3>Season 5</h3>
+		      </div>
+		    </div>
+
+		    <div class="item">
+		      <img src="images/logos2-4.jpg" alt="Season 4">
+		      <div class="carousel-caption">
+		        <h3>Season 4: RU</h3>
+		      </div>
+		    </div>
+
+		    <div class="item">
+		      <img src="images/logos2-4.jpg" alt="Season 3">
+		      <div class="carousel-caption">
+		        <h3>Season 3</h3>
+		      </div>
+		    </div>
+
+		    <div class="item">
+		      <img src="images/logos2-4.jpg" alt="Season 2">
+		      <div class="carousel-caption">
+		        <h3>Season 2</h3>
+		      </div>
+		    </div>
+		    
+		  	<div class="item">
+		      <img src="images/logos1.jpg"" alt="Season 1">
+		      <div class="carousel-caption">
+		        <h3>Season 1</h3>
+		      </div>
+		    </div>
+
+		  </div>
+
+
+
+		  <!-- Left and right controls -->
+		  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+		    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+		    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div>
+	</div>
+
+</div>
+
+
+<!--SCRIPTS -->
+<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+<script>
+	$(document).ready(function() {
+		      $("body").css("display", "none");
+		   
+		      $("body").fadeIn(1500);
+		   
+		      $("a.transition").click(function(event){
+		          event.preventDefault();
+		          linkLocation = this.href;
+		          $("body").fadeOut(1000, redirectPage);      
+		      });
+		           
+		      function redirectPage() {
+		          window.location = linkLocation;
+		      }
+		  });
+		// Activate Carousel
+	$("#myCarousel").carousel();
+
+	// Enable Carousel Indicators
+	$(".item").click(function(){
+	    $("#myCarousel").carousel(1);
+	});
+
+	// Enable Carousel Controls
+	$(".left").click(function(){
+	    $("#myCarousel").carousel("prev");
+	});
+
+</script>
+
 </body>
+<footer style="text-align: center; font-family: 'Khula', sans-serif;">
+	© Kevin Corso, Chase Branham, and The CIL 2015 - 2018
+</footer>
 </html>
