@@ -80,11 +80,16 @@ p {
     font-size: 14pt;
 }
 
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
-      width: 70%;
-      margin: auto;
-  }
+#google-sheets-icon{
+  max-width: 100px;
+}
+#google-sheets-icon:hover{
+  background-color: transparent;
+  outline: none;
+  border-color: #2de2f3;
+  border: 0 0 0 0;
+  box-shadow: 0 0 100px #2de2f3;
+}
 
 footer {  
    left:0px;
