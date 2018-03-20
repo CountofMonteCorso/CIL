@@ -46,6 +46,27 @@ li:hover{
     box-shadow: 0 0 100px #2de2f3;
 }
 
+h1 {
+	color: #2de2f3;
+	text-align: center;
+	font-family: 'Questrial', sans-serif;
+	font-size: 36pt;
+}
+
+h3 {
+	color: white;
+	text-align: center;
+	font-family: 'Questrial', sans-serif; 
+
+}
+
+p {
+	padding-top: 20%;
+	color: #2de2f3;
+	text-align: center;
+	font-family: 'Questrial', sans-serif; 
+}
+
 footer {  
    left:0px;
    bottom:0px;
